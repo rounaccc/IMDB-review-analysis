@@ -1,4 +1,4 @@
-# IMDB review analysis
+# IMDb review analysis
 
 ## Introduction
 Review analysis is the process of transforming unstructured review data into structured data that can be used to guide decision-making.
@@ -30,6 +30,6 @@ A few of the primary uses include:
 
 
 ## Key Takeaways
-- Learnt how to pre-process straing data using various techniques
+- Learnt how to pre-process string data using various techniques
 - Hyperparameter tuning was quite a bit of an headache but learned alot throughout the process
 - The model is curruntly over-fitting, which we are working on to enhance the effeciency by tring out multiple hyperparamenters and layers
