@@ -1,4 +1,4 @@
-# IMDb review analysis
+# IMDb review sentiment analysis
 
 ## Introduction
 Review analysis is the process of transforming unstructured review data into structured data that can be used to guide decision-making.
@@ -12,7 +12,7 @@ A few of the primary uses include:
 - The dataset used for this project was an inbuilt tensorflow dataset
 - The dataset had total of `50,000` samples of IMDb comments and labeled data
 - The comments are distributed into `Positive` and `Negative` comments
-- Data was split into train and test set in **80:20 ratio**
+- Data was split into train and test set in `80:20 ratio`
 
 ## Methodology
 1. Used `Google Colab` to make the model
@@ -21,15 +21,20 @@ A few of the primary uses include:
    - Stop-words Removal
    - Tokenization
 3. Embedding words into vectors using `FastText`
-4. Trained Model using Dense Layer
+4. Trained Model using LSTM Layer
 5. Model Evaluation 
 With FastText:
-   - Train Data - **93.56%** Test Data - **91.32%**
+   - Train Data - `93.56%` Test Data - `91.32%`
 Without FastText:
-   - Train Data - **98.50%** Test Data - **88.23%**
+   - Train Data - `98.50%` Test Data - `88.23%`
 
 
 ## Visualization
+
+<!-- ![Demo](visualization.gif) -->
+<!-- <img src="visualization.MP4" width="650" height="350"> -->
+
+https://user-images.githubusercontent.com/85012501/164473341-261503d4-d3eb-4eef-801f-b3b460882fc9.MP4
 
 
 
